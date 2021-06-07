@@ -1,0 +1,19 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "Dolphin",
+  "version": "1.2",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Dolphin",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "120": "icon.png"
+  },
+  "description": "Поиск токена фб и быстрое добавление аккаунтов в твой Dolphin"
+}
